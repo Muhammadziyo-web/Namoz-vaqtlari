@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namoz vaqtlari</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all">
+    <div class="container">
+        <h1 class="title container text-center">Namoz vaqtlari</h1>
+        <div class="select">
+            <h4>Hududni tanlang:</h4>
+            <select class="form-select">
+            </select>
+        </div>
+        <div class="mintaqa d-flex  ">
+            <h4 class="text-center">Mintaqa: <span class="min">fsdf</span> </h4>
+            <div class="date text-center"><i class="bi bi-calendar4-week"></i> <span class="day"></span>
+                <span id="hour"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card-wrapper d-flex flex-wrap justify-content-center">
+        <!-- card1 -->
+        <div class="cards">
+            <h4>Tong</h4>
+            <img src="img/isha-prayer 1.svg" alt="img">
+            <h4 class="time1 time">04:58</h4>
+        </div>
+
+
+
+        <!-- card2 -->
+        <div class="cards">
+            <h4>Quyosh</h4>
+            <img src="img/sunrise 1.svg" alt="img">
+            <h4 class="time2 time">04:58</h4>
+        </div>
+
+
+        <!-- card3 -->
+        <div class="cards">
+            <h4>Peshin</h4>
+            <img src="img/sun 1.svg" alt="img">
+            <h4 class="time3 time">04:58</h4>
+        </div>
+
+
+        <!-- card4 -->
+        <div class="cards">
+            <h4>Asr</h4>
+            <img src="img/sunrise (1) 1.svg" alt="img">
+            <h4 class="time4 time">04:58</h4>
+        </div>
+
+
+        <!-- card5 -->
+        <div class="cards">
+            <h4>Shom</h4>
+            <img src="img/sunrise (1) 2.svg" alt="img">
+            <h4 class="time5 time">04:58</h4>
+        </div>
+
+
+        <!-- card6 -->
+        <div class="cards">
+            <h4>Xufton</h4>
+            <img src="img/moon 1.svg" alt="img">
+            <h4 class="time6 time">04:58</h4>
+        </div>
+    </div>
+
+
+    <div class="week-wrapper w-75 mx-auto bg-light">
+        <table class="table table-striped ">
+            <thead class="weekRes">
+                <tr>
+                    <th class="first">Hafta kuni</th>
+                    <th class="second">Sana</th>
+                    <th>Tong</th>
+                    <th>Quyosh</th>
+                    <th>Peshin</th>
+                    <th>Asr</th>
+                    <th>Shom</th>
+                    <th>Xufton</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
+    <button class="btn btn-light text-primary week-show">Haftalik vaqtni ko`rish</button>
+
+</div>
+    <script src="plugin.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

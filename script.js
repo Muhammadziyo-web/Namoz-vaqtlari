@@ -82,7 +82,7 @@ function clock() {
     setInterval(() => {
         const date = new Date();
         $("#hour").innerHTML = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-        $('.day').innerHTML = `${date.getDate()}.${date.getMonth()}.${date.getFullYear()}`
+        $('.day').innerHTML = `${date.getDate()}.${date.getMonth()+1}.${date.getFullYear()}`
     }, 1000);
 }
 
